@@ -9,7 +9,6 @@ By the end of this process, you will have:
 - Created an Expo React Native app
 - Run the app locally
 - Saved your work with Git
-- Published a preview with Expo Snack
 - Submitted a pull request for grading
 
 > [!TIP]
@@ -29,10 +28,9 @@ Complete these items before beginning.
 
 You will need:
 
-- A [GitHub account](https://github.com/)
-- An [Expo account](https://expo.dev/signup) for saving and sharing an Expo Snack
+- A [GitHub account](https://github.com/) 
+- To be logged into expo -  [go to Expo snack](https://snack.expo.dev/) and choose "Log in" if you aren't already and authenticate with your Umich Google account. 
 
-Make sure you can sign in to both accounts.
 
 ### Software
 
@@ -224,6 +222,13 @@ git branch --show-current
 
 The result should match your branch name.
 
+Commit the current changes
+
+```bash
+git add .
+git commit -m "Expo Init"
+```
+
 ---
 
 ## 5. Run the App Locally
@@ -371,65 +376,8 @@ Update colors and typography
 
 ---
 
-## 8. Publish an Expo Snack
 
-[Expo Snack](https://snack.expo.dev/) creates a browser-based version of your app that can be shared with a URL.
-
-Make sure you have pushed your latest work to GitHub before creating the Snack.
-
-### Option A: Import from GitHub
-
-1. Open [Expo Snack](https://snack.expo.dev/).
-2. Sign in to your Expo account.
-3. Use Snack's GitHub import option.
-4. Enter or select your public GitHub repository.
-5. Confirm that Snack imported the correct files and branch.
-6. Test the app in Snack.
-7. Select **Save**.
-8. Copy the saved Snack URL.
-
-A saved Snack URL should look similar to:
-
-```text
-https://snack.expo.dev/@YOUR-EXPO-USERNAME/SNACK-NAME
-```
-
-### Option B: Copy the Project Manually
-
-If GitHub import does not work:
-
-1. Open [Expo Snack](https://snack.expo.dev/).
-2. Sign in to your Expo account.
-3. Copy your main component into the Snack editor.
-4. Create any additional files used by your component.
-5. Add external packages through Snack's dependency controls.
-6. Test the preview.
-7. Select **Save**.
-8. Copy the saved Snack URL.
-
-> [!IMPORTANT]
-> Some native libraries, local assets, configuration files, and platform-specific features may work locally but not in Snack. Your instructor may accept a simplified Snack preview if the full project uses unsupported features.
-
-> [!TIP]
-> **AI prompt idea**
->
-> ```text
-> My Expo app works locally but fails in Expo Snack.
->
-> Packages used:
-> PACKAGE-LIST
->
-> Snack error:
-> ERROR-MESSAGE
->
-> Explain whether a dependency, local asset, file path, or native
-> feature may be unsupported. Suggest the smallest change needed
-> to create a working Snack preview.
-> ```
-
----
-
-## 9. Open a Pull Request
+## 8. Open a Pull Request
 
 A **pull request**, or PR, asks the instructor to review your work.
 
@@ -465,9 +413,7 @@ Copy and complete this template:
 
 PROTOTYPE-DESCRIPTION
 
-## Expo Snack
 
-SNACK-URL
 
 ## How to test
 
@@ -503,7 +449,7 @@ None known.
 
 ---
 
-## 10. Final Submission Checklist
+## 9. Final Submission Checklist
 
 Before submitting, confirm that:
 
@@ -512,7 +458,7 @@ Before submitting, confirm that:
 - [ ] `git status` does not show important uncommitted changes
 - [ ] My latest commits were pushed to GitHub
 - [ ] My repository does not contain passwords, tokens, or API keys
-- [ ] My saved Expo Snack URL works
+
 - [ ] The pull request points to the original class repository
 - [ ] The pull request compares `BRANCH-NAME` against the correct base branch
 - [ ] The pull request has the name required by the assignment
