@@ -159,8 +159,8 @@ The `.` means “create the Expo app in the current folder.”
 
 If you are asked whether packages may be installed, enter `y`.
 
-If it asks what SDK version you want to install, choose `"For learning with Expo Go (SDK 54)"` if available, 
-otherwise the most recent.
+If it asks what SDK version you want to install, choose the version that matches the most recent Expo Go on your phone if available, 
+otherwise the most recent. Note that you can often install newer Expo Go versions than App Store or Play via https://expo.dev/go 
 
 It should ask you ` You are creating a project inside of an existing Git repository. Skip initializing a new git repository?` - say `Y` for yes.
 
@@ -255,6 +255,8 @@ From the Expo terminal:
 
 - Press `a` to open an Android emulator.
 - Press `i` to open an iOS Simulator.
+- Press `i` to open a web Simulator.
+
 
 The iOS Simulator requires macOS and Xcode. The Android emulator requires Android Studio and an emulator configured in advance.
 
